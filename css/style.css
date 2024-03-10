@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=VT323');
+@font-face {
+    font-family: "Berkeley";
+    src: url("../assets/BerkeleyMono-Regular.woff");
+}
 
 * {
     color-scheme: dark;
 }
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Berkeley", monospace;
     margin: 0;
     padding: 0;
     color: #D7DFBE;
